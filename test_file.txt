@@ -1,0 +1,1 @@
+echo "Hello from Xapic DevOps Group1 AWS S3-LAMBDA-TRIGGER!" > test_file.txt

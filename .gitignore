@@ -1,0 +1,65 @@
+# ======================
+# OS / Editor files
+# ======================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# ======================
+# Python
+# ======================
+_pycache_/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+.venv/
+env/
+venv/
+
+# ======================
+# Terraform
+# ======================
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*.auto.tfvars
+*.tfplan
+*.log
+
+# ======================
+# AWS credentials
+# ======================
+*.pem
+*.key
+*.crt
+*.csr
+.env
+.aws/
+
+# ======================
+# Lambda Build Files
+# ======================
+lambda.zip
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# Jupyter/IPython Notebooks (if any)
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# VS Code
+# ======================
+.vscode/
